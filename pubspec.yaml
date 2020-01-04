@@ -1,0 +1,33 @@
+name: my_business_card
+description: Simple Flutter Business Card with url luncher
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^5.4.1
+  font_awesome_flutter: ^8.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+     - family: Dancing script
+       fonts:
+         - asset: assets/fonts/DancingScript-Regular.ttf
+     - family: Source Sans Pro
+       fonts:
+         - asset: assets/fonts/SourceSansPro-Regular.ttf
+
