@@ -126,9 +126,9 @@ class MyBusinessCard extends StatelessWidget {
             child: ListTile(
               leading: Icon(FontAwesomeIcons.envelopeOpen, color: kIconColors),
               title: Text(
-                  'rihanna.kedir.dev@gmail.com', style: kSocialTextStyle),
+                  'rihanna.kedir.dev[at]gmail.com', style: kSocialTextStyle),
               onTap: () {
-                  UrlUtils.sendEmail('rihanna.kedir.dev[at]gmail.com');
+                  UrlUtils.sendEmail('rihanna.kedir.dev@gmail.com');
               },
             )
         ),
