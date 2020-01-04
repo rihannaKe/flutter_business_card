@@ -128,7 +128,7 @@ class MyBusinessCard extends StatelessWidget {
               title: Text(
                   'rihanna.kedir.dev@gmail.com', style: kSocialTextStyle),
               onTap: () {
-                  UrlUtils.sendEmail('rihanna.kedir.dev@gmail.com');
+                  UrlUtils.sendEmail('rihanna.kedir.dev[at]gmail.com');
               },
             )
         ),
